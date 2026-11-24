@@ -2,7 +2,7 @@
 
 ## 0.4: New note diagram
 
-\`\`\`mermaid
+```mermaid
 sequenceDiagram
     participant browser
     participant server
@@ -36,11 +36,11 @@ sequenceDiagram
     deactivate server
 
     Note right of browser: The browser executes the callback and renders notes
-\`\`\`
+```
 
 ## 0.5: Single page app diagram
 
-\`\`\`mermaid
+```mermaid
 sequenceDiagram
     participant browser
     participant server
@@ -68,11 +68,11 @@ sequenceDiagram
     deactivate server
 
     Note right of browser: Browser executes callback that renders notes
-\`\`\`
+```
 
 ## 0.6: New note in Single page app diagram
 
-\`\`\`mermaid
+```mermaid
 sequenceDiagram
     participant browser
     participant server
@@ -86,4 +86,4 @@ sequenceDiagram
     Note left of server: Note sent as JSON in request body
     server-->>browser: 201 Created
     deactivate server
-\`\`\`
+```
